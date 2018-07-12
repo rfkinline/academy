@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title>TITLE</title>
+  </head>
+  <body>
+    <h1>essen</h1>
+
+<script>
+var a="#";
+var b=3;
+var c = a + b;
+if (c < 9) {  document.write("<h1>ehdessllo</h1>" + a + b + c );}
+else {document.write("over 90" + a + b + c)}
+</script>
+<hr>
+
+
+
+<script>
+mr = 7
+sym="#"
+for (r=0; r < mr; r++) {
+   for (c=0; c < r; c+=mr) {sym+="#";}
+  document.write(sym + "<br>");}
+</script>
+
+<hr>
+
+
+<script type="text/javascript">
+// Minimum
+function Minimum(x,y){
+  if(x<y){
+    return x;}
+    else return y;}
+document.write(Minimum(-132,14));
+</script>
+
+<hr>
+
+<script type="text/javascript">
+// ODD or EVEN
+function isEven(n) {
+  if (n == 0) return true;
+  else if (n == 1) return false;
+    else if (n < 0) return isEven(-n);
+      else return isEven(n - 2);
+}
+ document.write(isEven(6));
+</script>
+
+<hr>
+<script type="text/javascript">
+// Bean
+function countChar(string, target) {
+  var counted = 0;
+  for (i = 0; i < string.length; i++) {
+    if (string[i] == target) {
+      counted += 1;
+    }
+  }
+  return counted;
+}
+document.write (countChar("BBBean", "B"))
+</script>
+<hr>
+
+<script>
+ size = 8;
+		toPrint = "";
+		for (row = 0; row < size; row++) {
+		   for (col = 0; col < size; col++) {
+			   if ((row + col) % 2 == 0) {
+					toPrint += "&nbsp;";
+				} else {
+					toPrint += "#";
+				}
+			}
+		   toPrint += "<br>";
+		}
+		document.write(toPrint + "<br>");
+</script>
+
+<hr>
+
+
+<script>
+for (r=1; r < 10; r++)
+{
+  if (r % 3 == 0) {document.write("Fizz" + "<br>" );}
+     else if (r % 5 == 0)  { document.write("Buzz" + "<br>");}
+    else if (r % 15 == 0) {  document.write("BuzzFizz" + "<br>"); }
+  else { document.write(r + "<br>");}
+}
+</script>
+
+<hr>
+
+
+
+
+<script>
+for (let len = "x"; len.length < 8; len = len + "x") {
+  document.write(len + "<br>")}
+</script><hr>
+
+
+
+
+
+
+  </body>
+</html>
